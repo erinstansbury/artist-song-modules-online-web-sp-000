@@ -8,5 +8,5 @@ module Memorable
       extend Artist
     end
   end
-    
+
 end
