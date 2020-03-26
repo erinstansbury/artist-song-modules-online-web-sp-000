@@ -1,10 +1,10 @@
 module Memorable
 
   class Reset_all
-    extend Artist::Song
+    extend Artist
   end
 
   class Count
-      extend Artist::Song
+      extend Artist
   end
 end
