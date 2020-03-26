@@ -1,10 +1,17 @@
 module Memorable
-
-  def Reset_all
-    extend Artist
-  end
-
-  def Count
+  module ClassMethods
+    def reset_all
       extend Artist
-  end
+    end
+
+    def count
+      extend Artist
+    end
+
+  module InstanceMethods
+      def initialize
+        self.class.all << self
+      end
+    end
+    
 end
