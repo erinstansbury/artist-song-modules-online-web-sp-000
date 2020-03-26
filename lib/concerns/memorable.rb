@@ -1,10 +1,10 @@
 module Memorable
 
-  class Reset_all
+  def Reset_all
     extend Artist
   end
 
-  class Count
+  def Count
       extend Artist
   end
 end
