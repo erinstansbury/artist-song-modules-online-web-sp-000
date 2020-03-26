@@ -7,6 +7,7 @@ module Memorable
     def count
       extend Artist
     end
+  end
 
   module InstanceMethods
       def initialize
